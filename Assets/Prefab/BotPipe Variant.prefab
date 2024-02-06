@@ -72,6 +72,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4000862856374375476, guid: f8d16a8b1f307d247913714f50498243, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8564063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000862856374375476, guid: f8d16a8b1f307d247913714f50498243, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.93
+      objectReference: {fileID: 0}
     - target: {fileID: 4882769606310046058, guid: f8d16a8b1f307d247913714f50498243, type: 3}
       propertyPath: m_Size.y
       value: 5.65
@@ -100,7 +108,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -2.56
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6551119121168286722, guid: f8d16a8b1f307d247913714f50498243, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

@@ -17,6 +17,11 @@ public class ScoreBox : MonoBehaviour
         if (_scoreManager == null)
             return;
 
+        if (!col.gameObject.CompareTag("Player"))
+        {
+            return;
+        }
+
         _scoreManager.AddScore(ScoreAmount);
         Debug.Log("Add Score" + ScoreAmount);
     }
